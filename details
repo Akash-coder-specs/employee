@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+#include<malloc.h>
+struct employee
+{
+	char name[20];
+	int age,salary;
+	long long int phn_number;
+};
+
+int main()
+{
+	struct employee emp;
+	int i;
+	printf("Name\tAge\tPhn_number\tsalary");
+	for(i=0;i<20;i++)
+	{
+	gets(emp.name);
+	scanf("%d%z%d",&emp.age,&emp.phn_number,&emp.salary);
+	}
+}
